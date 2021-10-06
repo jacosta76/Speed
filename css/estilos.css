@@ -1,5 +1,6 @@
 body
 {
+    background: #1e1f24;
     color:#333;
     text-align: center;
     font-family: Arial;
@@ -7,6 +8,13 @@ body
     margin: 0;
     padding: 0;
 }
+
+#header #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
 #header
 {
     background:dodgerblue;
@@ -30,7 +38,12 @@ body
     border: 1px solid #000;
     margin: 0 auto;
 }
-container h1
+#container h1
 {
     font-size: 20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
